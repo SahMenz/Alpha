@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.general{
+    display: flex;
+    flex-direction: column;
+    font-family: 'ubuntu', sans-serif;
+    padding: 10px;
+}
+.what{
+    /* font-weight: bolder; */
+    align-self: center;
+    font-weight: 700;
+    font-size: 1.1rem;
+    border-bottom: 3px solid #D3FFCC;
+    padding-bottom: 7px;
+}
+.cardgeneral{
+    background: #DFFFDA;
+    border-radius: 60px 0px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    color: #1e1e1e;
+    padding: 20px;
+    max-width: 478px;
+    max-height: 489px;
+}
+.cardtext{
+    font-weight: 400;
+    font-size: .9rem;
+}
+.cardprofile{
+    width: 40vw;
+    max-width: 118px;
+    margin: 20px 0;
+}
+.cardnames{
+    margin-bottom: 14px;
+    font-weight: 600;
+    font-size: 25px;
+}
+.cardoccupation{
+    font-weight: 500;
+    font-size: .9rem;
+}
+.cardone{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 10px;
+    margin: 30px 0;
+}
+.generaltwo{
+    border: 1px solid #edfceb;
+    align-items: center;
+    display: flex;
+    background-color: #edfceb;
+    padding: 10px;
+}
+.influence{
+    background: linear-gradient(90deg, #22DF03 23.07%, #148102 76.51%);
+    border-radius: 15.9315px;
+    text-align: center;
+    color: #fff;
+    font-family: 'ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: .85rem;
+    padding: 10px 5px;
+}
+.testify{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    gap: 59px;
+}
+.monials{
+    width: 90vw;
+    max-width: 301px;
+    max-height: 244px;
+    text-shadow: #148102;
+}
+.write{
+    -webkit-text-stroke: 2px #22df03;
+    color:#fff;
+    font-size:2rem;
+    font-weight: bolder;
+    border-bottom: 3px solid #d3ffcc;
+    padding-bottom: 10px;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+.exclaim{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.greeen{
+    font-family: 'ubuntu', sans-serif;
+    padding: 10px;
+}
+.parag{
+    font-weight: 600;
+    font-size: 1.3rem;
+    color: #fbfbfb;
+    max-width: 751px;
+    background-image: url(/src/images/greenlong.svg);
+    background-repeat: no-repeat;
+    background-size:100%;
+    padding: 20px;
+    padding-bottom: 40px;
+    background-color: #21da03;
+}
+@media screen and (min-width:1024px){
+    .influence{
+        font-weight: bold;
+        font-size: 1rem;
+        padding: 10px 10px;
+    }
+    .write{
+        font-size: 50px;
+    }
+    .generaltwo{
+        padding: 0 100px;
+    }
+    .testify{
+        margin-bottom: 40px;
+    }
+    .parag{
+        font-size: 29px;
+    }
+}

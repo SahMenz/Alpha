@@ -13,9 +13,10 @@
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
+    margin-top: 20px;
 }
 .how{
-    font-weight: 500;
+    font-weight: 500; 
     font-size: 16px;
 }
 .are{
@@ -61,11 +62,22 @@
     background-image: url(/src/images/darktheme.svg);
     min-width: 16.906rem;
     min-height: 17.875rem;
+    width: 90vw;
+    height: 90vw;
+    max-width: 670.5px;
+    max-height: 686px;
     background-size: 100%;
     background-repeat: no-repeat;
+    z-index: -1;
 }
 .direct{
     padding: 20px;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    max-width: 758px;
+    justify-content: space-between;
 }
 .dit{
     font-weight: 500;
@@ -82,8 +94,88 @@
 .hello{
     font-weight: 500;
     font-size: 18px;
-    max-width: 470px;
     margin: 20px 0;                 
     font-weight: 500;
-    font-family: 'ubuntu', sans-serif                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ;
+    font-family: 'ubuntu', sans-serif ;
+    max-width: 670px;
 }
+.imagery{
+    width: 20vw;
+    height: 20vw;
+    max-width: 120px;
+    max-height: 82px;
+}
+.dolls{
+    width: 110vw;
+    height: 110vw;
+    max-width:429.63px;
+    max-height:570.41px;
+}
+.merge{
+    flex-flow: wrap-reverse;
+    background-image: url(/src/images/backgroundskyblue.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: -80px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    column-gap: 60px;
+    align-items: center;
+}
+
+@media screen and (min-width:1024px){
+    .container{
+        align-items: start;
+        gap: 30px;
+        padding: 0;
+        padding: 0 100px;
+    }
+    .how{
+        font-size:22px;
+    }
+    .merge{
+        padding-top: 0;
+        padding: 0 100px;
+        padding-top: 180px;
+        margin-top: -285px;
+        gap: 170px;
+        margin-bottom: 30px;
+    }
+    .first{
+        max-width: 655px;
+        /* padding: 10px 0; */
+        font-size: 3rem;
+    }
+    .left{
+        margin-top: 70px;
+    }
+    .get{
+        margin-top: 30px;
+    }
+    .dit{
+        font-size: 22.9414px;
+    }
+    .copyight{
+        font-size:3.4vw;
+        width: 47vw;
+    }
+    .hello{
+        font-size:1.4vw;
+        width: 40vw;
+    }
+    .direct{
+        margin-top: 90px;
+    }
+}
+
+
+
+/* display: grid;
+    grid-gap: 5px;
+    column-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(200px, 1fr)); */

@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&family=Ubuntu:wght@400;500;700&display=swap');
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'ubuntu', sans-serif;
+}
+.logos{
+    display: flex;
+    align-items: center;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+.dlogos{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+}
+.bars{
+    display: none;
+    cursor: pointer;
+}
+.barer1, .barer2, .barer3{
+    width: 25px;
+    height: 3px;
+    background-color: rgb(4, 24, 1);
+    border-radius: 4px;
+    transition: all 0.4s ease-in-out;
+    margin: 5px auto;
+    display: block;
+}
+.response{
+    display: flex;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    width: 370px;
+    justify-content: space-between;
+}
+.side{
+    width: 40vw;
+    min-width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+.ref{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    color: #f2f2f2;
+    background-color: #22DF03;
+    width:110px;
+    border-radius: 20px;
+    padding: 15px 10px;
+}
+.assu:active{
+    font-weight: bolder;
+}
+.brither{
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (min-width:1220px){
+    .header{
+        padding: 15px 100px;
+    }
+}
+@media screen and (max-width:912px){
+    .bars{
+        display: block;
+        z-index: 1;
+        margin-top: 10px;
+        transition: 0.4s ease-in;
+    }
+    .response{
+        display: flex;
+        flex-direction: column;
+        width:-moz-fit-content;
+        width:fit-content;
+        height: 220px;
+        justify-content: space-between;
+    }
+    .brither{
+        color: #fbfbfb;
+    }
+    .side{
+        position: fixed;
+        top: 7vh;
+        right: 0;
+        width: 50vw;
+        height: 93vh;
+        min-width: 180px;
+        background-color: #168e03;
+        flex-direction: column;
+        align-items: center;
+        max-width: 319px;
+        padding: 20px;
+        border-radius: 10px;
+        transform: translateX(100%);
+        transition: 0.5s ease-in;
+    }
+}
+.side__active{
+    transform: translateX(0);
+}
+.work .barer1{
+    transform: translatey(8px) rotate(45deg);
+}
+.work .barer2{
+    opacity: 0;
+}
+.work .barer3{
+    transform: translatey(-8px) rotate(-45deg);
+}
