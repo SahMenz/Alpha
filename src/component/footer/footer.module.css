@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.general{
+    background: #3C3C3C;
+    width: 100%;
+    font-family: 'ubuntu', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:center;
+    gap: 40px;
+    padding: 20px;
+}
+.footerbottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 250px;
+    gap: 20px;
+}
+.contact{
+    color: #fff;
+    font-weight: 500;
+    font-size: 25.3757px;
+}
+.footertop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 380.01px;
+    /* flex-wrap: wrap; */
+    gap: 20px;
+}
+@media screen and (min-width: 668px) {
+    .general{
+        padding: 40px 91px;
+        justify-content:space-between;
+    }
+}

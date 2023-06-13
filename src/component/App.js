@@ -3,6 +3,7 @@ import Nav from './nav/nav';
 import Hero from './hero/hero'
 import SemiMenu from './semiMenu/semiMenu';
 import WriteUps from './writeUps/writeUps';
+import Footer from './footer/footer';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Hero />
         <SemiMenu />
         <WriteUps />
+        <Footer />
       </div>
   );
 }
