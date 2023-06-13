@@ -18,17 +18,26 @@
     border-bottom: 3px solid #D3FFCC;
     padding-bottom: 7px;
 }
-.cardgeneral{
+.redd, .bluue, .yeellow{
     background: #DFFFDA;
     border-radius: 60px 0px;
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
+    justify-content: space-between;
     color: #1e1e1e;
-    padding: 20px;
+    padding: 60px 20px;
     max-width: 478px;
-    max-height: 489px;
+    height: 439px;
+    margin: auto;
+}
+.yeellow{
+    /* height: 439px; */
+    width: 530px;
+}
+.redd{
+    width: 550px;
 }
 .cardtext{
     font-weight: 400;
@@ -52,10 +61,10 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     gap: 30px;
     padding-top: 10px;
-    margin: 30px 0;
+    margin: 30px 10px;
 }
 .generaltwo{
     border: 1px solid #edfceb;
@@ -71,8 +80,12 @@
     color: #fff;
     font-family: 'ubuntu', sans-serif;
     font-weight: 500;
-    font-size: .85rem;
-    padding: 10px 5px;
+    padding: 20.7109px 123.469px;
+    margin-bottom: 30px;
+    max-width: 762.94px;
+    font-size: 25.4904px;
+    font-size: 6vw;
+    padding: 10px;
 }
 .testify{
     display: flex;
@@ -110,23 +123,42 @@
     padding: 10px;
 }
 .parag{
+    font-family: 'Roboto', sans-serif;
     font-weight: 600;
-    font-size: 1.3rem;
+    font-size: 7.8px;
     color: #fbfbfb;
-    max-width: 751px;
+    max-width: 851px;
+    line-height: 120%;
+}
+.paragcontainer{
     background-image: url(/src/images/greenlong.svg);
     background-repeat: no-repeat;
+    min-width: 280px;
+    min-height: 158px;
     background-size:100%;
-    padding: 20px;
-    padding-bottom: 40px;
-    background-color: #21da03;
+    height: 42vw;
+    width: 76.7vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+@media screen and (min-width:468px){
+    .parag{
+        font-size: 2vw;
+    }
+    .influence{
+        padding: 15.7109px 50.469px;
+        font-size: 25.4904px;
+    }
+}
+@media screen and (min-width:1442px){
+    .parag{
+        font-size: 29px;
+    }
 }
 @media screen and (min-width:1024px){
-    .influence{
-        font-weight: bold;
-        font-size: 1rem;
-        padding: 10px 10px;
-    }
     .write{
         font-size: 50px;
     }
@@ -136,7 +168,7 @@
     .testify{
         margin-bottom: 40px;
     }
-    .parag{
-        font-size: 29px;
+    .influence{
+        padding: 20.7109px 123.469px;
     }
 }

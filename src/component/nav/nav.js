@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
-import "../component/nav.css"
-import dlogo from '../images/dlogo.svg'
+import "../../component/nav/nav.css"
+import dlogo from '../../images/dlogo.svg'
 
 function Nav() {
   const [active, setActive] = useState("side");

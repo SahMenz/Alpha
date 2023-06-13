@@ -1,7 +1,8 @@
 import React from 'react';
-import Nav from './nav';
-import Hero from './hero';
-import SemiMenu from './semiMenu';
+import Nav from './nav/nav';
+import Hero from './hero/hero'
+import SemiMenu from './semiMenu/semiMenu';
+import WriteUps from './writeUps/writeUps';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <Nav />
         <Hero />
         <SemiMenu />
+        <WriteUps />
       </div>
   );
 }

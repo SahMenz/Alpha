@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './hero.module.css'
-import bars from '../images/bars.svg'
-import dollars from '../images/dollars.svg'
+import bars from '../../images/bars.svg'
+import dollars from '../../images/dollars.svg'
 
 function Hero() {
   return (

@@ -16,22 +16,28 @@ import testtwelve from '../images/testtwelve.svg'
 
 export const menu = [
     {
+        id: 7731,
         text : "When it comes to writing copy, Damilare is really good and is someone I highly recommend. Wrote a crazy copy for the Landing page of my online course and it was simply amazing. And he delivered fast too. Working with him was a cool experience!",
         profile : victory ,
         names: " Victory Odewingwe",
-        occupation : "Media Ads Expert"
+        occupation : "Media Ads Expert",
+        styling:"bluue"
     },
     {
+        id: 7131,
         text : "Damilare practically help built my business from the scratch to where it is today. His copy delivers crazy results. I'll recommend him anytime anyday to anyone.",
         profile : james ,
         names: " James Akinmade",
-        occupation : "Top Trading Expert & CEO, Jay’s Quest for Finance"
+        occupation : "Top Trading Expert & CEO, Jay’s Quest for Finance",
+        styling:"redd"
     },
     {
+        id: 7031,
         text : "Damilare is my go-to guy for my email campaigns",
         profile : solomon ,
         names: " Solomon Chianu (Oxide)",
-        occupation : "8 Figure Copywriter & Marketing Coach"
+        occupation : "8 Figure Copywriter & Marketing Coach",
+        styling:"yeellow"
     }
 ];
 

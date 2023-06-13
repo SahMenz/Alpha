@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.general{
+    font-family: 'ubuntu', sans-serif;
+}
+.hechtwo{
+    color: #22DF03;
+    font-weight: 700;
+    font-size: 12vw;
+    text-align: center;
+}
+.vertical{
+    width: 25vw;
+    margin: 30px 30px;
+}
+.anyoneCan{
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+}
+.longtalk{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #3C3C3C;
+    font-weight: 600;
+    font-size: 5.8vw;
+    max-width: 954px;
+}
+.longtalktwo{
+    font-weight: 700;
+    color: #3C3C3C;
+    max-width: 954px;
+    margin: 30px 10px;
+    text-align: center;
+    font-size: 8vw;
+}
+.spannie{
+    color: #22DF03;
+}
+.got{
+    width: -moz-fit-content;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+}
+.longtalkthree{
+    text-align: center;
+    margin: 0 10px;
+    font-weight: 500;
+    font-size: 6vw;
+}
+.firstgreen, .secondgreen{
+    font-weight: 700;
+    font-size: 5vw;
+    text-align: center;
+    color: #EDFCEB;
+    max-width: 735px;
+    background: linear-gradient(90deg, #22DF03 56.2%, #148102 100%);
+    border-radius: 20px 0px 20px 20px;
+    padding: 20px;
+    margin: 20px 10px;
+}
+.secondgreen{
+    max-width: 1069px;
+    padding: 17px;
+}
+.backgrounddifferent{
+    font-weight: 500;
+    font-size: 6vw;
+    text-align: center;
+    color: #3C3C3C;
+    background: #EDFCEB;
+    border-radius: 0px 0px 60px 60px;
+    max-width: 974px;
+    padding: 20px;
+    margin: 10px;
+}
+.longtalkfour{
+    text-align: center;
+    max-width: 963px;
+    font-size: 6vw;
+    margin-top: 10px;
+    font-weight: 500;
+    margin: 10px;
+}
+.newstart{
+    background: #EDFCEB;
+    border-radius: 0px 0px 60px 60px;
+    text-align: start;
+    max-width: 974px;
+    color: #3C3C3C;
+    font-weight: 500;
+    font-size: 6vw;
+    padding: 50px 10px;
+    margin: 10px;
+}
+.newstarttwo{
+    text-align: center;
+    font-weight: 500;
+    font-size: 5.5vw;
+    max-width: 973.08px;
+    margin: 10px;
+    color: #3C3C3C;
+}
+.sohow{
+    font-weight: 700;
+}
+.getaccessto{
+    border: 2.63141px solid #148102;
+    border-radius: 17.5427px;
+    max-width: 485.26px;
+    color: #148102;
+    text-align: center;
+    padding: 17.6641px 49.6276px;
+    margin: 10px;
+    cursor: pointer;
+}
+.getaccessto:active{
+    color: #EDFCEB;
+    background-color:#148102;
+}
+.getaccesstotwo{
+    background: #22DF03;
+    border-radius: 16.8368px;
+    max-width: 464.35px;
+    padding: 16.9532px 30.6773px;
+    color:#F2F2F2;
+    cursor: pointer;
+}
+.getaccesstotwo:active{
+    color: #148102;
+    background-color:#EDFCEB;
+    border: 2.63141px solid #148102;
+}
+.howmuchdo{
+    font-weight: 500;
+    font-size: 6.5vw;
+    text-align: center;
+    background-color:#DFFFDA;
+    border-radius: 0px 0px 60px 60px;
+    max-width: 954px;
+    padding: 30px 20px;
+    margin: 10px;
+}
+.spanone{
+    color:#22DF03;
+    font-weight: 700;
+}
+.just{
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    max-width: 1011.24px;
+    color: #3C3C3C;
+}
+@media screen and (min-width:468px){
+    .howmuchdo{
+        font-size: 30px;
+    }
+    .hechtwo{
+        font-size: 52.1179px;
+    }
+    .vertical{
+        width: 100px;
+    }
+    .longtalk{
+        font-size: 27.2035px;
+    }
+    .longtalktwo{
+        font-size: 38px;
+    }
+    .firstgreen, .secondgreen{
+        font-size: 28px;
+    }
+    .newstart, .backgrounddifferent, .longtalkfour, .longtalkthree{
+        font-size: 25px;
+    }
+    .newstarttwo{
+        font-size: 24px;
+    }
+    .sohow{
+        font-size: 32px;
+    }
+}
