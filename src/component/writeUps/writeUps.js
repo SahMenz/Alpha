@@ -93,10 +93,10 @@ function WriteUps() {
           Here’s what you get alongside the guide today!<br />
         </div>
         <div className={styles.getaccessto}>
-          Get Access To My Private Newsletter 
+          <a href="https://paystack.com/pay/damilarearibisala?fbclid=IwAR1BBRJGl4xBTSfB3GJQvHJ_X2eQ6NbHdnspXumUErTGLf1iIL_AIdzyIq8" className={styles.removingline}>Get Access To My Private Newsletter </a>
         </div>
         <div className={styles.getaccesstotwo}>
-          Get Access To My WhatsApp Community 
+          <a href="https://api.whatsapp.com/send/?phone=2347013779723&text&type=phone_number&app_absent=0" className={styles.removinglinetwo}> Get Access To My WhatsApp Community </a>
         </div>
         <div className={styles.howmuchdo}>
           <span className={styles.spanone}> How much do you think all of these would cost you?!</span><br />
@@ -112,7 +112,7 @@ function WriteUps() {
           Just $2 (#1000) To Get Instant Lifetime Access To Everything On This Page!
         </div>
         <div className={styles.getaccesstothree}>
-          I Want All Of These For Just $3
+          <a href="https://paystack.com/pay/damilarearibisala?fbclid=IwAR1BBRJGl4xBTSfB3GJQvHJ_X2eQ6NbHdnspXumUErTGLf1iIL_AIdzyIq8" className={styles.removinglinethree}>I Want All Of These For Just $3</a>
         </div>
         <div className={styles.forjust}>
           <span className={styles.forjusthead}>But why is this so cheap?</span><br /><br />
@@ -140,7 +140,9 @@ function WriteUps() {
           Now here’s something I didn’t mention all along…<br />
           There’s a secret gift INSIDE the guide and you’ll only know about it when you get the guide now!<br />
         </div>
-        <div className={styles.greenlast}>I Want All Of These For Just $3</div>
+        <div className={styles.greenlast}>
+          <a href="https://paystack.com/pay/damilarearibisala?fbclid=IwAR1BBRJGl4xBTSfB3GJQvHJ_X2eQ6NbHdnspXumUErTGLf1iIL_AIdzyIq8" className={styles.removinglinethree}>I Want All Of These For Just $3</a>
+        </div>
       </div>
     </div>
   )

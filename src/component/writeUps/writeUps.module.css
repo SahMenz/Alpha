@@ -214,6 +214,19 @@
     padding: 21px 24px;
     margin: 10px;
 }
+.removingline{
+    color: #148102;
+    text-decoration: none;
+}
+.removinglinetwo{
+    color: #f2f2f2;
+    text-decoration: none;
+}
+.removinglinethree{
+    color: #f2f2f2;
+    text-decoration: none;;
+    text-decoration: none;
+}
 @media screen and (min-width:468px){
     .greenlast{
         font-size: 28px;
