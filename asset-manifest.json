@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Alpha/static/css/main.f10e554c.css",
-    "main.js": "/Alpha/static/js/main.c82afd74.js",
+    "main.css": "/Alpha/static/css/main.8acea6a8.css",
+    "main.js": "/Alpha/static/js/main.c09db21d.js",
     "static/media/dollars.svg": "/Alpha/static/media/dollars.c9613df22fb53faf7ca6e5a39c6d757e.svg",
     "static/media/testthree.svg": "/Alpha/static/media/testthree.8ca92660376fddf4ed23c0b8dba538ba.svg",
     "static/media/instagram.svg": "/Alpha/static/media/instagram.0ba61919ccfb825f9dcf4a4b33199e05.svg",
@@ -25,14 +25,14 @@
     "static/media/dlogo.svg": "/Alpha/static/media/dlogo.da449e8d8bc9ff10c0a2be4839a8f40d.svg",
     "static/media/verticalbars.svg": "/Alpha/static/media/verticalbars.5a844794d84a2b16b8706e5e1e72d6bf.svg",
     "static/media/bars.svg": "/Alpha/static/media/bars.5d7c48dbc8222fa794d782c15cc07661.svg",
-    "index.html": "/Alpha/index.html",
     "static/media/greenlong.svg": "/Alpha/static/media/greenlong.4e1f3d453580f92b012f.svg",
+    "index.html": "/Alpha/index.html",
     "static/media/backgroundskyblue.svg": "/Alpha/static/media/backgroundskyblue.8ae10a3fe13fd2557828.svg",
-    "main.f10e554c.css.map": "/Alpha/static/css/main.f10e554c.css.map",
-    "main.c82afd74.js.map": "/Alpha/static/js/main.c82afd74.js.map"
+    "main.8acea6a8.css.map": "/Alpha/static/css/main.8acea6a8.css.map",
+    "main.c09db21d.js.map": "/Alpha/static/js/main.c09db21d.js.map"
   },
   "entrypoints": [
-    "static/css/main.f10e554c.css",
-    "static/js/main.c82afd74.js"
+    "static/css/main.8acea6a8.css",
+    "static/js/main.c09db21d.js"
   ]
 }
