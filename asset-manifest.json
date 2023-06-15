@@ -1,7 +1,11 @@
 {
   "files": {
-    "main.css": "/Alpha/static/css/main.8acea6a8.css",
-    "main.js": "/Alpha/static/js/main.c09db21d.js",
+    "main.css": "/Alpha/static/css/main.392e9833.css",
+    "main.js": "/Alpha/static/js/main.140cbcdc.js",
+    "static/media/carouselfour.svg": "/Alpha/static/media/carouselfour.a4aba571f971c8a20cfa6843edc6bbd4.svg",
+    "static/media/carouselone.svg": "/Alpha/static/media/carouselone.1d7ae365746dd7fc362bae1b3b530f44.svg",
+    "static/media/carouseltwo.svg": "/Alpha/static/media/carouseltwo.ccb01a9c60f85ed739a5cdcd8f9f0b2e.svg",
+    "static/media/carouselthree.svg": "/Alpha/static/media/carouselthree.e16917bcab493b4eb6114cb3df0c9d6b.svg",
     "static/media/dollars.svg": "/Alpha/static/media/dollars.c9613df22fb53faf7ca6e5a39c6d757e.svg",
     "static/media/testthree.svg": "/Alpha/static/media/testthree.8ca92660376fddf4ed23c0b8dba538ba.svg",
     "static/media/instagram.svg": "/Alpha/static/media/instagram.0ba61919ccfb825f9dcf4a4b33199e05.svg",
@@ -28,11 +32,11 @@
     "static/media/greenlong.svg": "/Alpha/static/media/greenlong.4e1f3d453580f92b012f.svg",
     "index.html": "/Alpha/index.html",
     "static/media/backgroundskyblue.svg": "/Alpha/static/media/backgroundskyblue.8ae10a3fe13fd2557828.svg",
-    "main.8acea6a8.css.map": "/Alpha/static/css/main.8acea6a8.css.map",
-    "main.c09db21d.js.map": "/Alpha/static/js/main.c09db21d.js.map"
+    "main.392e9833.css.map": "/Alpha/static/css/main.392e9833.css.map",
+    "main.140cbcdc.js.map": "/Alpha/static/js/main.140cbcdc.js.map"
   },
   "entrypoints": [
-    "static/css/main.8acea6a8.css",
-    "static/js/main.c09db21d.js"
+    "static/css/main.392e9833.css",
+    "static/js/main.140cbcdc.js"
   ]
 }
