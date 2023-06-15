@@ -111,9 +111,9 @@ function WriteUps() {
         <div className={styles.just}>
           Just $2 (#1000) To Get Instant Lifetime Access To Everything On This Page!
         </div>
-        <div className={styles.getaccesstothree}>
-          <a href="https://paystack.com/pay/damilarearibisala?fbclid=IwAR1BBRJGl4xBTSfB3GJQvHJ_X2eQ6NbHdnspXumUErTGLf1iIL_AIdzyIq8" className={styles.removinglinethree}>I Want All Of These For Just $3</a>
-        </div>
+        <a href="https://paystack.com/pay/damilarearibisala?fbclid=IwAR1BBRJGl4xBTSfB3GJQvHJ_X2eQ6NbHdnspXumUErTGLf1iIL_AIdzyIq8" className={styles.removinglinethree}>
+            <div className={styles.getaccesstothree}>I Want All Of These For Just $3</div>
+        </a>
         <div className={styles.forjust}>
           <span className={styles.forjusthead}>But why is this so cheap?</span><br /><br />
           Well, the truth is…<br />
@@ -140,9 +140,9 @@ function WriteUps() {
           Now here’s something I didn’t mention all along…<br />
           There’s a secret gift INSIDE the guide and you’ll only know about it when you get the guide now!<br />
         </div>
-        <div className={styles.greenlast}>
-          <a href="https://paystack.com/pay/damilarearibisala?fbclid=IwAR1BBRJGl4xBTSfB3GJQvHJ_X2eQ6NbHdnspXumUErTGLf1iIL_AIdzyIq8" className={styles.removinglinethree}>I Want All Of These For Just $3</a>
-        </div>
+        <a href="https://paystack.com/pay/damilarearibisala?fbclid=IwAR1BBRJGl4xBTSfB3GJQvHJ_X2eQ6NbHdnspXumUErTGLf1iIL_AIdzyIq8" className={styles.removinglinethree}>
+          <div className={styles.greenlast}>I Want All Of These For Just $3</div>
+        </a>
       </div>
     </div>
   )
