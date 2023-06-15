@@ -1,6 +1,10 @@
 import React from 'react'
 import styles from './semiMenu.module.css'
-import { menu } from '../data';
+// import { menu } from '../data';
+import carouselone from '../../images/carouselone.svg'
+import carouseltwo from '../../images/carouseltwo.svg'
+import carouselfour from '../../images/carouselfour.svg'
+import carouselthree from '../../images/carouselthree.svg'
 import { testimonials } from '../data';
 
 function SemiMenu() {
@@ -9,17 +13,10 @@ function SemiMenu() {
       <div className={styles.general}>
         <div className={styles.what}>What My Clients Say About Me</div>
         <div className={styles.cardone}>
-          {menu.map((cards) => (
-            <>
-              {/* <div className={styles.cardgeneral}> */}
-              <div className={styles[`${cards.styling}`]} key={cards.id}>
-                <div className={styles.cardtext}>"{cards.text}"</div>
-                <img src={cards.profile} alt="" className={styles.cardprofile} />
-                <div className={styles.cardnames}>{cards.names}</div>
-                <div className={styles.cardoccupation}>{cards.occupation}</div>
-              </div>
-            </>
-          ))}
+          <img src={carouselone} alt=""  className={styles.bluue}/>
+          <img src={carouseltwo} alt="" className={styles.bluue}/>
+          <img src={carouselthree} alt="" className={styles.bluue} />
+          <img src={carouselfour} alt="" className={styles.bluue}/>
         </div>
       </div>
       <fieldset className={styles.generaltwo}>

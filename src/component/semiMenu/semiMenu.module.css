@@ -11,51 +11,16 @@
     padding: 10px;
 }
 .what{
-    /* font-weight: bolder; */
     align-self: center;
     font-weight: 700;
     font-size: 1.1rem;
     border-bottom: 3px solid #D3FFCC;
     padding-bottom: 7px;
 }
-.redd, .bluue, .yeellow{
-    background: #DFFFDA;
-    border-radius: 60px 0px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    justify-content: space-between;
-    color: #1e1e1e;
-    padding: 60px 20px;
-    max-width: 478px;
-    height: 439px;
+.bluue{
+    max-width: 428px;
+    width: 85vw;
     margin: auto;
-}
-.yeellow{
-    /* height: 439px; */
-    width: 530px;
-}
-.redd{
-    width: 550px;
-}
-.cardtext{
-    font-weight: 400;
-    font-size: .9rem;
-}
-.cardprofile{
-    width: 40vw;
-    max-width: 118px;
-    margin: 20px 0;
-}
-.cardnames{
-    margin-bottom: 14px;
-    font-weight: 600;
-    font-size: 25px;
-}
-.cardoccupation{
-    font-weight: 500;
-    font-size: .9rem;
 }
 .cardone{
     display: flex;
@@ -63,7 +28,6 @@
     align-items: center;
     justify-content: space-between;
     gap: 30px;
-    padding-top: 10px;
     margin: 30px 10px;
 }
 .generaltwo{
