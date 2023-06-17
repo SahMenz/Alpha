@@ -97,7 +97,6 @@
         position: fixed;
         top: 7vh;
         right: 0;
-        left: 0;
         width: 50vw;
         height: 93vh;
         min-width: 180px;
@@ -113,6 +112,7 @@
 }
 .side__active{
     transform: translateX(0);
+    left: 0;
 }
 .work .barer1{
     transform: translatey(8px) rotate(45deg);
