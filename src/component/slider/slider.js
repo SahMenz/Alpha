@@ -7,8 +7,8 @@ import Carousel from 'react-bootstrap/Carousel';
 import carouselone from '../../images/carouselone.svg'
 import carouseltwo from '../../images/carouseltwo.svg'
 import carouselthree from '../../images/carouselthree.svg'
-import carouselfour from '../../images/carouselfour.svg'
-import carouselcombination from '../../images/carouselcombination.svg'
+// import carouselfour from '../../images/carouselfour.svg'
+// import carouselcombination from '../../images/carouselcombination.svg'
 import styles from './slider.module.css'
 
 function Slider() {
