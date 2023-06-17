@@ -56,6 +56,7 @@
 }
 .first{
     max-width: 435px;
+    font-weight: 700;
 }
 .head{
     margin-top: 30px;
@@ -103,6 +104,7 @@
     width: 20vw;
     height: 20vw;
     max-width: 120px;
+    align-self: center;
     max-height: 82px;
 }
 .dolls{
@@ -125,6 +127,9 @@
 }
 
 @media screen and (min-width:1024px){
+    .imagery{
+        align-self: flex-start;
+    }
     .container{
         align-items: flex-start;
         gap: 30px;

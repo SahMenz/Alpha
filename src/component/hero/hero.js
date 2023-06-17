@@ -10,7 +10,7 @@ function Hero() {
             <div className={styles.container}>
                 <div className={styles.left}>
                     <p className={styles.how}>HOW ANYONE CAN MAKE</p>
-                    <h1 className={styles.first}>$150 or More With Less Than 6 Hours Of Work Daily!</h1>
+                    <h1 className={styles.first}><b>$150 or More With Less Than 6 Hours Of Work Daily!</b></h1>
                     <p className={styles.are}>
                         Are you a student who is frustrated at the educational system? or a graduate trying 
                         to find your feet in the already filled up market? or you love to make 
