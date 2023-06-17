@@ -48,7 +48,9 @@
     width: 40vw;
     min-width: 600px;
     display: flex;
+    margin: auto;
     justify-content: space-between;
+    max-height: 370px;
 }
 .ref{
     text-decoration: none;
@@ -95,6 +97,7 @@
         position: fixed;
         top: 7vh;
         right: 0;
+        left: 0;
         width: 50vw;
         height: 93vh;
         min-width: 180px;
