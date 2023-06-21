@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Alpha/static/css/main.8422a3d6.css",
-    "main.js": "/Alpha/static/js/main.8dce879e.js",
+    "main.css": "/Alpha/static/css/main.0676435b.css",
+    "main.js": "/Alpha/static/js/main.e52ffc09.js",
     "static/media/carouselfour.svg": "/Alpha/static/media/carouselfour.f3c214a33a086d220e2b62b8f7afd367.svg",
     "static/media/carouselone.svg": "/Alpha/static/media/carouselone.bcf9c626361aaaf2b9ec2476e8023bb1.svg",
     "static/media/carouseltwo.svg": "/Alpha/static/media/carouseltwo.0d12454e23178a48e576079fc0d828ca.svg",
@@ -29,11 +29,11 @@
     "static/media/greenlong.svg": "/Alpha/static/media/greenlong.4e1f3d453580f92b012f.svg",
     "index.html": "/Alpha/index.html",
     "static/media/backgroundskyblue.svg": "/Alpha/static/media/backgroundskyblue.8ae10a3fe13fd2557828.svg",
-    "main.8422a3d6.css.map": "/Alpha/static/css/main.8422a3d6.css.map",
-    "main.8dce879e.js.map": "/Alpha/static/js/main.8dce879e.js.map"
+    "main.0676435b.css.map": "/Alpha/static/css/main.0676435b.css.map",
+    "main.e52ffc09.js.map": "/Alpha/static/js/main.e52ffc09.js.map"
   },
   "entrypoints": [
-    "static/css/main.8422a3d6.css",
-    "static/js/main.8dce879e.js"
+    "static/css/main.0676435b.css",
+    "static/js/main.e52ffc09.js"
   ]
 }
