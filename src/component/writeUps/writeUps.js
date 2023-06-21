@@ -109,7 +109,7 @@ function WriteUps() {
           You will only be paying…
         </div>
         <div className={styles.just}>
-          Just $2 (#1000) To Get Instant Lifetime Access To Everything On This Page!
+          Just $3 (#2500) To Get Instant Lifetime Access To Everything On This Page!
         </div>
         <a href="https://paystack.com/pay/damilarearibisala?fbclid=IwAR1BBRJGl4xBTSfB3GJQvHJ_X2eQ6NbHdnspXumUErTGLf1iIL_AIdzyIq8" className={styles.removinglinethree}>
             <div className={styles.getaccesstothree}>I Want All Of These For Just $3</div>

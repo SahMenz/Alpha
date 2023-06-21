@@ -29,6 +29,11 @@ function Nav() {
       </div>
       {/* <div className="active"> */}
       <div className={active}>
+        <div onClick={navToggle} className={toggleIcon}>
+          <div className="barer1"></div>
+          <div className="barer2"></div>
+          <div className="barer3"></div>
+        </div>
         <div className="response">
           <div className="assu"> <a href="#" className="brither"> Home </a></div>
           <div className="assu"> <a href="#" className="brither">About </a></div>

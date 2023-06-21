@@ -1,10 +1,5 @@
 import React from 'react'
 import styles from './semiMenu.module.css'
-// import { menu } from '../data';
-// import carouselone from '../../images/carouselone.svg'
-// import carouseltwo from '../../images/carouseltwo.svg'
-// import carouselfour from '../../images/carouselfour.svg'
-// import carouselthree from '../../images/carouselthree.svg'
 import { carou, testimonials } from '../data';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Slider from '../slider/slider'
@@ -16,10 +11,6 @@ function SemiMenu() {
       <div className={styles.general}>
         <div className={styles.what}>What My Clients Say About Me</div>
         <div className={styles.cardone}>
-          {/* <img src={carouselone} alt=""  className={styles.bluue}/>
-          <img src={carouseltwo} alt="" className={styles.bluue}/>
-          <img src={carouselthree} alt="" className={styles.bluue} />
-          <img src={carouselfour} alt="" className={styles.bluue}/> */}
           <Slider carou={carou} />
         </div>
       </div>
@@ -36,7 +27,6 @@ function SemiMenu() {
       <div className={styles.greeen}>
         <div className={styles.exclaim}>
           <div className={styles.write}>Copywriting!</div>
-          {/* <div className={styles.together}> */}
           <div className={styles.paragcontainer}>
             <p className={styles.parag}>
               But what is copywriting and how can you make money <br /> from it?<br /> Simple.<br />
@@ -50,8 +40,6 @@ function SemiMenu() {
               And you know the best part?<br />
             </p>
           </div>
-          {/* <img src={greenlong} alt="" className={styles.longer}/>
-          </div> */}
         </div>
         <div className={styles.anyone}></div>
       </div>

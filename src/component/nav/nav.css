@@ -48,9 +48,8 @@
     width: 40vw;
     min-width: 600px;
     display: flex;
-    margin: auto;
     justify-content: space-between;
-    max-height: 370px;
+    max-height: 400px;
 }
 .ref{
     text-decoration: none;
@@ -95,7 +94,7 @@
     }
     .side{
         position: fixed;
-        top: 7vh;
+        top: 3vh;
         right: 0;
         width: 50vw;
         height: 93vh;
@@ -109,11 +108,11 @@
         transform: translateX(100%);
         transition: 0.5s ease-in;
         z-index: 1;
+        text-align: center;
     }
 }
 .side__active{
     transform: translateX(0);
-    left: 0;
 }
 .work .barer1{
     transform: translatey(8px) rotate(45deg);
